@@ -166,8 +166,6 @@ header > div {
 }
 
 @media screen and (max-width:714px){
-
-
 .violet {
 
   font-size: 1.5em;
@@ -176,7 +174,27 @@ header > div {
   
   font-size: 2em;
 }
-
+header   img {
+    width: 100%;
+     height: 20em;
+    
+}
+header > div {
+  position: absolute;
+  left: 1em;
+  top: 15em;
+  
+}
+.violet {
+  font-weight: 600;
+  font-size: 2em;
+  display: flex;
+  box-sizing: border-box;
+}
+.bleu {
+  font-weight: 600;
+  font-size: 1.5em;
+}
 
 }
 </style>

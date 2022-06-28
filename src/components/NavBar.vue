@@ -1,7 +1,7 @@
 <template>
 
 
-<nav class=" navbar navbar-expand-lg navbar-light bg-light navbar-bg-color ">
+<nav class=" navbar navbar-expand-lg navbar-light bg-light  ">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
      
       <ul class="justify-content-center nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
-          <router-link to="/" class="nav-link">Accueil</router-link>
+          <router-link to="/" class="nav-link ">Accueil</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/concours" class="nav-link">Concours</router-link>
@@ -28,8 +28,8 @@
           <router-link to="/partenaires" class="nav-link">Partenaires</router-link>
         </li>
       </ul>
-      </div>
-      <form class="justify-content-end">
+      
+      <form class="d-flex">
         <a href="inscription"><button type="button" class="btn btn-secondary btn-inscription me-5">
         Inscription
       </button></a>
@@ -40,6 +40,7 @@
       </button></a>
         
       </form>
+      </div>
     </div>
   
 </nav>

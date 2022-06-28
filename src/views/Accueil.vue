@@ -10,12 +10,11 @@
           style="
             font-weight: 600;
             font-size: 30px;
-            line-height: 54px;
+            line-height: 2em;
             display: flex;
             align-items: center;
-            letter-spacing: 0.2px;
             color: #5772b7;
-            padding-left: 88px;
+            padding-left: 2em;
           "
         >
           Bienvenue à AYABABY’S
@@ -389,35 +388,6 @@ export default {
 .btn-connexion:hover {
   color: #ffffff;
   background-color: #3c64b1;
-}
-
-.navbar-bg-color {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-}
-.violet {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 68px;
-  /* identical to box height */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  color: #cf5c95;
-  box-sizing: border-box;
-}
-.bleu {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  /* identical to box height */
-
-  align-items: center;
-  text-align: center;
-
-  color: #5772b7;
 }
 
 .text-introductif {
