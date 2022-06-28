@@ -6,7 +6,7 @@
 		<div class="col-lg-6" style="margin-bottom: 1em;">
 		<div class="card page-concours">		
 					<div class="d-flex card-message"></div>
-				<div class="card-img-overlay h-500 d-flex flex-column justify-content-end">
+				<div class="card-img-overlay h-100 d-flex flex-column justify-content-end">
 					<p class="card-text1" style="color:#ffffff;">DU 01 JANVIER AU 15 JANVIER 2022</p>
 					<p class="card-text2" style="color:#ffffff;"><strong>CONCOURS BÉBÉ 2022</strong></p>
 					<button>VOIR LE CONCOURS</button>
@@ -192,5 +192,49 @@ border-radius: 5px;
 .page-link{
   color: #cf5c95
   
+}
+
+@media screen and (max-width:990px){
+.card-text1{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.card-text2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    line-height: 10px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+	display: flex;
+}
+}
+
+@media screen and (max-width:714px){
+
+.card-text1{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 10px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+.card-text2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    line-height: 5px;
+    letter-spacing: 0.2px;
+}
+button{
+width: 170px;
+height: 25px;
+} 
+.card-message{
+padding: 3rem;
+}
 }
 </style>

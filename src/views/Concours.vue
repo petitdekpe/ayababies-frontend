@@ -93,17 +93,6 @@ header   img {
   color: #cf5c95;
   box-sizing: border-box;
 }
-.bleu {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  /* identical to box height */
-
-  align-items: center;
-  text-align: center;
-
-  color: #5772b7;
-}
 
 .text-introductif {
   margin-top: 50px;
@@ -212,13 +201,21 @@ text-align: center; */
   text-transform: uppercase;
 }
 
+
 @media screen and (max-width:990px){
 header   img {
     width: 100%;
      height: auto;
     
 }
+}
 
+@media screen and (max-width:714px){
+.violet {
+  font-weight: 600;
+  font-size: 2em;
+  
+}
   
 }
 </style>
