@@ -262,7 +262,7 @@ header   img {
      height: 25em;  
 }
 header > div .text-center{
-  top: 19em;
+  top: 18em;
 }
 }
 </style>

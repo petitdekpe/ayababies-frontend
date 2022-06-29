@@ -50,13 +50,6 @@ header   img {
     
 }
 
-/* header > div {
-  position: absolute;
-  left: 5em;
-  top: 25em;
-  
-} */
-
 .btn-inscription,
 .btn-inscription:hover,
 .btn-inscription:active,
