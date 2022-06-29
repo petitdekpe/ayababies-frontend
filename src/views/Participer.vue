@@ -1,8 +1,9 @@
 <template>
-  <header class="he2">
+  <header class=" he2">
 		<!-- Background image -->
+    <img src="@/assets/images/page-concours.png" >
 		      <div class="d-flex justify-content-center align-items-center h-75">
-		        <div class="text-center" style="margin-left: 500px;">
+		        <div class="text-center">
 		          <h3 class="violet">Participer</h3>
 		        </div>
 		      </div>
@@ -22,16 +23,18 @@
           </button>
         </div>
 
-        <div class="content-titre " style="margin-bottom: 2em">
+        <div class="content-titre h-75 w-50px " style="margin-bottom: 2em">
           <span>Comment participer ?</span>
         </div>
 
         <div class="container">
           <div class="row">
+            <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab placeat nesciunt natus deserunt quae incidunt, vitae laboriosam, blanditiis quos iste expedita aut aspernatur. Quod minus, harum sunt cumque aliquam dolorem!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit suscipit nemo, magni voluptatem, rerum assumenda, veritatis ad dolorum expedita saepe voluptate nostrum cum commodi! Inventore ea officia quam expedita nulla.
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione fugit explicabo eum inventore adipisci, animi qui necessitatibus accusamus quis aut veniam nemo ex hic eos eaque, officia id, ipsum atque.
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa suscipit officia vel labore alias qui, dignissimos tempora ipsum sapiente voluptatum expedita totam aliquid adipisci quae. Laboriosam, ullam. Voluptatibus, neque consectetur.
+            </p>
           </div>
           
         </div>
@@ -90,38 +93,35 @@ export default {
 </script>
 
 <style>
-.he2{
-	height: 95vh;
+header   img {
+    width: 100%;
+     height: 40em;
+    
+}
+
+header > div .text-center{
+  position: absolute;
+  top: 25em;
+  
+}
+/* .he2{
+	height: 40em;
     width: 100%;
     background-image: url("@/assets/images/page-concours.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .violet {
   font-style: normal;
   font-weight: 600;
   font-size: 68px;
-  /* identical to box height */
-
   display: flex;
   align-items: center;
   text-align: center;
-
-  color: #fff;
+  color: #cf5c95;
   box-sizing: border-box;
-}
-.bleu {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  /* identical to box height */
-
-  align-items: center;
-  text-align: center;
-
-  color: #5772b7;
 }
 
 .text-introductif {
@@ -217,5 +217,52 @@ export default {
 }
 .row{
   margin-bottom:100px;
+}
+
+
+@media screen and (max-width:990px){
+  .button-l1 {
+ width: 300px;
+  height: 150px;
+   margin-left: 0em; 
+}
+.button-l2 {
+ width: 300px;
+height: 150px;
+}
+}
+@media screen and (max-width:766px){
+.button-l1 {
+ width: 100px;
+height: 100px;
+margin-left: 1em;
+}
+.button-l2 {
+width: 100px;
+height: 100px;
+}
+.icon-participer{
+height: 2.5em;
+}
+.icon-vote{
+height: 2.5em;
+}
+.button-text{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.violet {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2em;
+}
+header   img {
+    width: 100%;
+     height: 25em;  
+}
+header > div .text-center{
+  top: 19em;
+}
 }
 </style>
