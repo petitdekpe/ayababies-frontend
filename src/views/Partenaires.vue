@@ -236,17 +236,18 @@ export default {
 			border-radius: 0.25em;
 
 		}
-
-		.page-concours{
-			border-radius: 0.55rem;
-			max-height: 300px;
-			min-height: 300px;
-			background-image: url('@/assets/images/bebe-metis.png');
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: center;
-		}
 		.justify-content-center{
 			display: flex;
 		}
+		.page-link{
+  		color: #cf5c95
+  
+		}
+
+@media screen and (max-width: 766px){
+
+header > div .text-center {
+    top: 10em;
+}
+}
 </style>
