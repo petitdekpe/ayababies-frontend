@@ -28,6 +28,8 @@
 <script>
 import Gagnants from "@/components/Gagnants.vue";
 import NosConcours from "@/components/NosConcours.vue";
+import { HTTP } from './http-common';
+
 export default {
   components: {
     Gagnants,
@@ -37,9 +39,22 @@ export default {
     return {
       show1: false,
       show2: false,
+      concours:[],
+        errors:[]
     };
   },
+  created(){
+    HTTP.get('endpoint')
+    .then(response=> {
+      this.concours = response.data
+    })
+    .catch(e =>{
+      this.errors.push(e)
+    })
+  }
 };
+ 
+
 </script>
 
 <style scoped>

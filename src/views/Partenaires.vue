@@ -107,8 +107,26 @@
 </template>
 
 <script>
-export default {
+//import { response } from 'express';
+import { HTTP } from './http-common';
 
+export default {
+	data(){
+		return{
+			partenaires: [],
+			errors: []
+		}
+	},
+
+	created(){
+		HTTP.get('endpoint')
+		.then(response => {
+			this.partenaires = response.data
+		})
+		.catch(e => {
+			this.errors.push(e)
+		})
+	}
 }
 </script>
 
